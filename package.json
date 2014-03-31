@@ -20,7 +20,5 @@
   "author": {
     "name": "Pierre Reimertz, Thomas Boutell"
   },
-  "license": "MIT",
-  "readme": "# random-words\n\n## Generate one or more common English words\n\n`random-words` generates random words for use as sample text. We use it to generate random blog posts when testing [Apostrophe](http://apostrophenow.org).\n\nCryptographic-quality randomness is NOT the goal, as speed matters for generating sample text and security does not. `Math.random()` is used.\n\nExamples:\n\n    var randomWords = require('random-words');\n\n    console.log(randomWords());\n    army\n\n    console.log(randomWords(5));\n    ['army', 'beautiful', 'became', 'if', 'actually']\n\n    console.log(randomWords({ min: 3, max: 10 }));\n    ['became', 'arrow', 'article', 'therefore']\n\n    console.log(randomWords({ exactly: 2 }));\n    ['beside', 'between']\n\n    console.log(randomWords({ exactly: 5, join: ' ' }))\n    'army beautiful became if exactly'\n\n",
-  "readmeFilename": "README.md",
+  "license": "MIT"
 }
