@@ -1,27 +1,13 @@
-# random-words
+# random-curse-words
 
-## Generate one or more common English words
-
-`random-words` generates random words for use as sample text. We use it to generate random blog posts when testing [Apostrophe](http://apostrophenow.org).
-
-Cryptographic-quality randomness is NOT the goal, as speed matters for generating sample text and security does not. `Math.random()` is used.
+## Generate bad words, NSFW
 
 Examples:
 
-    var randomWords = require('random-words');
+    var curseWords = require('random-curse-words');
 
     console.log(randomWords());
-    army
-
+    butt
+    
     console.log(randomWords(5));
-    ['army', 'beautiful', 'became', 'if', 'actually']
-
-    console.log(randomWords({ min: 3, max: 10 }));
-    ['became', 'arrow', 'article', 'therefore']
-
-    console.log(randomWords({ exactly: 2 }));
-    ['beside', 'between']
-
-    console.log(randomWords({ exactly: 5, join: ' ' }))
-    'army beautiful became if exactly'
-
+    ['Egoist', 'Missing link', 'Dagnammit', 'Worm', 'Snob']
