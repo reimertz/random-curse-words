@@ -1,6 +1,6 @@
 {
   "name": "random-curse-words",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate one or more common curse English words",
   "main": "index.js",
   "repository": {
