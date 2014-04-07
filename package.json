@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git@github.com:reimertz/random-curse-words.git"
   },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
   "keywords": [
     "random",
     "words",
