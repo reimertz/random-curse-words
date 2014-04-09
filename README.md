@@ -1,8 +1,8 @@
 # random-curse-words
 
-## Generate bad words, NSFW
+### Generate bad words, NSFW
 
-### npm install random-curse-words
+#### npm install random-curse-words
 
     var curseWords = require('random-curse-words');
 
