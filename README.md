@@ -4,8 +4,6 @@
 
 ### npm install random-curse-words
 
-Examples:
-
     var curseWords = require('random-curse-words');
 
     console.log(randomWords());
